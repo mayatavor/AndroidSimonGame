@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back_hill"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Level 1"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="score: "
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:id="@+id/TvScore"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:stretchColumns="1"
+        android:background="@drawable/fullcenter"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TableRow
+            android:layout_width="370dp"
+            android:layout_height="185dp">
+            
+            <Button
+                android:layout_width="185dp"
+                android:layout_height="185dp"
+                android:textSize="20dp"
+                android:background="@drawable/greentl"
+                android:id="@+id/btngreen4"/>
+            <Button
+                android:layout_width="185dp"
+                android:layout_height="185dp"
+                android:textSize="20dp"
+                android:background="@drawable/redtr"
+                android:id="@+id/btnred4"/>
+        </TableRow>
+
+         <TableRow
+            android:layout_width="370dp"
+            android:layout_height="185dp">
+            
+            <Button
+                android:layout_width="185dp"
+                android:layout_height="185dp"
+                android:textSize="20dp"
+                android:background="@drawable/yellowbl"
+                android:id="@+id/btnyellow4"/>
+            <Button
+                android:layout_width="185dp"
+                android:layout_height="185dp"
+                android:textSize="20dp"
+                android:background="@drawable/bluebr"
+                android:id="@+id/btnblue4"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+            android:layout_width="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="180dp"
+            android:id="@+id/btnbackLevel1"
+            android:background="@drawable/back"/>
+</LinearLayout>

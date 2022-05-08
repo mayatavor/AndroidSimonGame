@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_hill"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You broke a new record!\nwant to enter the best players list?\n Enter your name:"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ETname"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnEnter"
+        android:background="#f0f0f0"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new game"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnNewGame"
+        android:background="#f0f0f0"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back to menu"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnMenu"
+        android:background="#f0f0f0"/>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back_hill"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:text="Menu"
+            android:layout_marginTop="10dp"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="30dp"
+            android:text="100"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/tvBattery"
+            android:background="@drawable/battery"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:stretchColumns="1"
+        android:background="@drawable/fullcenter"
+        android:layout_marginTop="50dp"
+        android:weightSum="50"
+        android:id="@+id/tableLayoutMenu">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Level 1"
+                android:layout_weight="25"
+                android:textSize="20dp"
+                android:background="@drawable/green"
+                android:id="@+id/btnLevel1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crazy Level    "
+                android:textSize="20dp"
+                android:layout_weight="25"
+                android:background="@drawable/red"
+                android:id="@+id/btnLevel2"/>
+        </TableRow>
+
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules"
+                android:layout_weight="25"
+                android:textSize="20dp"
+                android:background="@drawable/yellow"
+                android:id="@+id/btnRules"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scores    "
+                android:layout_weight="25"
+                android:textSize="20dp"
+                android:background="@drawable/blue"
+                android:id="@+id/btnScores"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMusic"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/play"/>
+
+
+</LinearLayout>
+
