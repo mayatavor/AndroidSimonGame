@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back_hill"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Best Scores"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        tools:ignore="HardcodedText"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="214.5dp"
+        android:stretchColumns="1"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer1"
+                android:text="maya"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer1score"
+                android:text="100"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer2"
+                android:text="maya"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer2score"
+                android:text="100"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer3"
+                android:text="maya"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/TVplayer3score"
+                android:text="100"
+                android:layout_width="match_parent"/>
+        </TableRow>
+    </TableLayout>
+    
+    <Button
+        android:layout_width="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="180dp"
+        android:id="@+id/btnbackscores"
+        android:background="@drawable/back"/>
+</LinearLayout>
+

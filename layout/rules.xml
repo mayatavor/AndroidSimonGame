@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_hill"
+    android:layout_height="match_parent"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rules"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.\n\n\n\n2.\n\n\n\n\n3.\n\n\n4.\n\n\n\n5."/>
+
+        <TextView
+            android:layout_width="385dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Press the START button. Simon will give the first signal. Repeat the signal by pressing the same color lens.\n\n
+Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order.\n\n
+Simon will duplicate these first two signals and add one.\n\n
+Continue playing as long as you can repeat each sequence of signals correctly.\n\n
+If you fail to repeat a sequence exactly, or if you take more than 5 seconds to repeat a signal, you've lost, and the sequence of signals ends."
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/youtube"
+            android:layout_gravity="center"
+            android:id="@+id/btnYoutube"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="180dp"
+            android:id="@+id/btnbackRules"
+            android:background="@drawable/back"/>
+    </LinearLayout>
+
+
+</LinearLayout>
